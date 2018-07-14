@@ -1,0 +1,21 @@
+{
+  "env": {
+    "node": true,
+    "es6": true,
+    "jasmine": true,
+  },
+  "plugins": ["jasmine"],
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "rules": {
+    "semi": 2,
+    "padded-blocks": ["error","never"],
+    eqeqeq: 2
+  }
+}
