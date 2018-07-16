@@ -1,3 +1,3 @@
 module.exports = {
-  getData: require('./lib/core/getData'),
+  fetchFromQuery: require('./lib/core/fetchFromQuery'),
 };
