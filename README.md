@@ -2,7 +2,7 @@
 
 Fetching data by query from js object
 
-![dataql](https://raw.githubusercontent.com/sterzhakov/dataql/master/logo.jpg)
+![dataql](https://raw.githubusercontent.com/sterzhakov/dataql/master/logo.jpg?v=1)
 
 ## How to install?
 ```bash
