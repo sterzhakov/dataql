@@ -68,7 +68,7 @@ just fetch data by query from resolvers
 ```javascript
 const { fetchData } = require('dataql')
 
-fetchData({ query, entities }).then((data) => {
+fetchData({ query, resolvers }).then((data) => {
   /*
     console.log(data) =>
     {

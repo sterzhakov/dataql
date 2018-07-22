@@ -1,11 +1,21 @@
 {
   "name": "dataql",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Fetching data by query from js object",
   "main": "index.js",
   "directories": {
     "lib": "lib"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sterzhakov/dataql.git"
+  },
+  "keywords": [
+    "dataql",
+    "data fetch",
+    "data query",
+    "data extract"
+  ],
   "dependencies": {
     "berries": "^1.2.0"
   },
