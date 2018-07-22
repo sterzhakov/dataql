@@ -1,6 +1,6 @@
 {
   "name": "dataql",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Fetching data by query from js object",
   "main": "index.js",
   "directories": {
@@ -17,7 +17,7 @@
     "data extract"
   ],
   "dependencies": {
-    "berries": "^1.2.0"
+    "berries": "^1.2.2"
   },
   "devDependencies": {
     "jasmine": "^3.1.0",
