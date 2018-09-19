@@ -1,6 +1,6 @@
 {
   "name": "dataql",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Fetching data by query from js object",
   "main": "index.js",
   "directories": {
