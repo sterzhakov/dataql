@@ -11,7 +11,7 @@ npm i dataql
 
 ## How it works:
 
-So you have some functions which return some data
+So you have some object with functions which return some data
 
 ```javascript
   const resolvers = {
@@ -66,9 +66,9 @@ So you have some functions which return some data
 just fetch data by query from resolvers
 
 ```javascript
-const { fetchData } = require('dataql')
+const dataql = require('dataql')
 
-fetchData({ query, resolvers }).then((data) => {
+dataql({ query, resolvers }).then((data) => {
   /*
     console.log(data) =>
     {
@@ -90,6 +90,10 @@ fetchData({ query, resolvers }).then((data) => {
   */
 })
 ```
+
+## Typization
+If you query object or array, your resolvers should return same type.
+In another case it will trigger error. For null query you can return anything.
 
 ## API
 
