@@ -97,7 +97,7 @@ In another case it will trigger error. For null query you can return anything.
 
 ## API
 
-### fetchData(args)
+### dataql(args)
 
 return: Promise
 
