@@ -56,8 +56,10 @@ So you have some object with functions which return some data
       _id: null,
       name: null,
       comments: [
-        _id: null,
-        description: null,
+        {
+          _id: null,
+          description: null,
+        }
       ],      
     }
   }
