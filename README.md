@@ -25,7 +25,7 @@ So you have some object with functions which return some data
       }
     }
 
-    postComments(post) {
+    comments(post) {
       const comments = [
         {
           _id: 1,
